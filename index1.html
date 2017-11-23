@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>OpenLayers</title>
+
+    <link rel="stylesheet" href="./ol.css" type="text/css">
+    <script src="./ol.js" type="text/javascript"></script>
+</head>
+<style>
+    #map {
+        height: 512px;
+        width: 1024px;
+        float: left;
+    }
+</style>
+<body>
+<div id="map">
+    <script>
+        var format = 'image/png';
+        var bounds = [73.441277, 18.159829,
+            135.08693, 53.561771];//范围
+
+        //中国各省底图（面）
+        var ImageMap = new ol.layer.Image({
+            source: new ol.source.ImageWMS({
+                ratio: 1,
+                //自己的服务url
+                url: 'http://localhost:8080/geoserver/CHINA/wms',
+                //设置服务参数
+                params: {
+                    'FORMAT': format,
+                    'VERSION': '1.1.0',
+                    STYLES: '',
+                    //图层信息
+                    LAYERS: 'CHINA:china_2014gdp',
+                }
+            })
+        });
+
+        //设置地图投影
+        var projection = new ol.proj.Projection({
+            code: 'EPSG:4326',//投影编码
+            units: 'degrees',
+            axisOrientation: 'neu'
+        });
+
+        //设置地图
+        var map = new ol.Map({
+            //地图中的比例尺等控制要素
+            controls: ol.control.defaults({
+                attribution: false
+            }).extend([
+                new ol.control.ScaleLine()
+            ]),
+            //设置显示的容器
+            target: 'map',
+            //设置图层
+            layers: [
+                //添加图层
+                ImageMap
+            ],
+            //设置视图
+            view: new ol.View({
+                //设置投影
+                projection: projection
+            })
+        });
+
+        //地图显示
+        map.getView().fit(bounds, map.getSize());
+    </script>
+</div>
+</body>
+</html>
