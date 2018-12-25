@@ -8,7 +8,7 @@ You can view my blogs for more details:
 
 3.[使用GeoServer+OpenLayers发布和调用WMTS、Vector Tile矢量切片服务 | Publishing and Calling WMTS, Vector Tile Service Using GeoServer + OpenLayers](http://www.cnblogs.com/kkyyhh96/p/7884694.html)  
 
-After viewing my code, I would appreciate if you cite my blogs.
+After viewing my code, I would appreciate it if you cite my blogs.
 
 [1] Y. Kang, “Generating a Simple Web GIS Website: Using GeoServer+PostgreSQL+PostGIS+OpenLayers3” cnblogs, 2017. [Online]. Available: http://www.cnblogs.com/kkyyhh96/p/6379515.html.  
 
