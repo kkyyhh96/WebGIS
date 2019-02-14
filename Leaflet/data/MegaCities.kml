@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MegaCities_data" id="MegaCities_data">
+	<SimpleField name="City" type="string"></SimpleField>
+	<SimpleField name="Pop_1985" type="string"></SimpleField>
+	<SimpleField name="Pop_1990" type="string"></SimpleField>
+	<SimpleField name="Pop_1995" type="string"></SimpleField>
+	<SimpleField name="Pop_2000" type="string"></SimpleField>
+	<SimpleField name="Pop_2005" type="string"></SimpleField>
+	<SimpleField name="Pop_2010" type="string"></SimpleField>
+	<SimpleField name="Pop_2015" type="string"></SimpleField>
+	<SimpleField name="latitude" type="float"></SimpleField>
+	<SimpleField name="longitude" type="float"></SimpleField>
+	<SimpleField name="desc" type="string"></SimpleField>
+	<SimpleField name="color" type="string"></SimpleField>
+	<SimpleField name="source" type="string"></SimpleField>
+	<SimpleField name="precision" type="string"></SimpleField>
+</Schema>
+<Folder><name>MegaCities_data</name>
+  <Placemark>
+	<name>Tokyo</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Tokyo</SimpleData>
+		<SimpleData name="Pop_1985">30.3</SimpleData>
+		<SimpleData name="Pop_1990">32.53</SimpleData>
+		<SimpleData name="Pop_1995">33.59</SimpleData>
+		<SimpleData name="Pop_2000">34.45</SimpleData>
+		<SimpleData name="Pop_2005">35.62</SimpleData>
+		<SimpleData name="Pop_2010">36.83</SimpleData>
+		<SimpleData name="Pop_2015">38</SimpleData>
+		<SimpleData name="latitude">35.682839</SimpleData>
+		<SimpleData name="longitude">139.759455</SimpleData>
+		<SimpleData name="desc">Tokyo, Chiyoda, Tokyo, JP</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>139.759455,35.682839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Delhi</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Delhi</SimpleData>
+		<SimpleData name="Pop_1985">7.33</SimpleData>
+		<SimpleData name="Pop_1990">9.73</SimpleData>
+		<SimpleData name="Pop_1995">12.41</SimpleData>
+		<SimpleData name="Pop_2000">15.73</SimpleData>
+		<SimpleData name="Pop_2005">18.67</SimpleData>
+		<SimpleData name="Pop_2010">21.94</SimpleData>
+		<SimpleData name="Pop_2015">25.7</SimpleData>
+		<SimpleData name="latitude">28.651718</SimpleData>
+		<SimpleData name="longitude">77.221939</SimpleData>
+		<SimpleData name="desc">Delhi, Central Delhi, Delhi, IN</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.221939,28.651718</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Shanghai</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Shanghai</SimpleData>
+		<SimpleData name="Pop_1985">6.85</SimpleData>
+		<SimpleData name="Pop_1990">7.82</SimpleData>
+		<SimpleData name="Pop_1995">10.45</SimpleData>
+		<SimpleData name="Pop_2000">13.96</SimpleData>
+		<SimpleData name="Pop_2005">16.76</SimpleData>
+		<SimpleData name="Pop_2010">19.98</SimpleData>
+		<SimpleData name="Pop_2015">23.74</SimpleData>
+		<SimpleData name="latitude">31.225344</SimpleData>
+		<SimpleData name="longitude">121.488892</SimpleData>
+		<SimpleData name="desc">Shanghai, Huangpu District, Shanghai, CN</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>121.488892,31.225344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>São Paulo</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">São Paulo</SimpleData>
+		<SimpleData name="Pop_1985">13.39</SimpleData>
+		<SimpleData name="Pop_1990">14.78</SimpleData>
+		<SimpleData name="Pop_1995">15.91</SimpleData>
+		<SimpleData name="Pop_2000">17.01</SimpleData>
+		<SimpleData name="Pop_2005">18.29</SimpleData>
+		<SimpleData name="Pop_2010">19.66</SimpleData>
+		<SimpleData name="Pop_2015">21.07</SimpleData>
+		<SimpleData name="latitude">-23.550651</SimpleData>
+		<SimpleData name="longitude">-46.633382</SimpleData>
+		<SimpleData name="desc">São Paulo, Microrregião de São Paulo, São Paulo, BR</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-46.633382,-23.550651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mumbai (Bombay)</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Mumbai (Bombay)</SimpleData>
+		<SimpleData name="Pop_1985">10.39</SimpleData>
+		<SimpleData name="Pop_1990">12.44</SimpleData>
+		<SimpleData name="Pop_1995">14.31</SimpleData>
+		<SimpleData name="Pop_2000">16.37</SimpleData>
+		<SimpleData name="Pop_2005">17.89</SimpleData>
+		<SimpleData name="Pop_2010">19.42</SimpleData>
+		<SimpleData name="Pop_2015">21.04</SimpleData>
+		<SimpleData name="latitude">18.938754</SimpleData>
+		<SimpleData name="longitude">72.835238</SimpleData>
+		<SimpleData name="desc">Mumbai, Maharashtra, IN</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>72.835238,18.938754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ciudad de México (Mexico City)</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Ciudad de México (Mexico City)</SimpleData>
+		<SimpleData name="Pop_1985">14.28</SimpleData>
+		<SimpleData name="Pop_1990">15.64</SimpleData>
+		<SimpleData name="Pop_1995">17.02</SimpleData>
+		<SimpleData name="Pop_2000">18.46</SimpleData>
+		<SimpleData name="Pop_2005">19.28</SimpleData>
+		<SimpleData name="Pop_2010">20.13</SimpleData>
+		<SimpleData name="Pop_2015">21</SimpleData>
+		<SimpleData name="latitude">19.432601</SimpleData>
+		<SimpleData name="longitude">-99.133342</SimpleData>
+		<SimpleData name="desc">Mexico City, Cuauhtémoc, MX</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-99.133342,19.432601</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Beijing</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Beijing</SimpleData>
+		<SimpleData name="Pop_1985">6.02</SimpleData>
+		<SimpleData name="Pop_1990">6.79</SimpleData>
+		<SimpleData name="Pop_1995">8.31</SimpleData>
+		<SimpleData name="Pop_2000">10.16</SimpleData>
+		<SimpleData name="Pop_2005">12.81</SimpleData>
+		<SimpleData name="Pop_2010">16.19</SimpleData>
+		<SimpleData name="Pop_2015">20.38</SimpleData>
+		<SimpleData name="latitude">39.905963</SimpleData>
+		<SimpleData name="longitude">116.391248</SimpleData>
+		<SimpleData name="desc">Dongcheng District, Beijing, CN</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>116.391248,39.905963</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kinki M.M.A. (Osaka)</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Kinki M.M.A. (Osaka)</SimpleData>
+		<SimpleData name="Pop_1985">17.58</SimpleData>
+		<SimpleData name="Pop_1990">18.39</SimpleData>
+		<SimpleData name="Pop_1995">18.94</SimpleData>
+		<SimpleData name="Pop_2000">18.66</SimpleData>
+		<SimpleData name="Pop_2005">18.76</SimpleData>
+		<SimpleData name="Pop_2010">19.49</SimpleData>
+		<SimpleData name="Pop_2015">20.24</SimpleData>
+		<SimpleData name="latitude">39.78373</SimpleData>
+		<SimpleData name="longitude">-100.445882</SimpleData>
+		<SimpleData name="desc">US</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">country</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-100.445882,39.78373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Al-Qahirah (Cairo)</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Al-Qahirah (Cairo)</SimpleData>
+		<SimpleData name="Pop_1985">8.33</SimpleData>
+		<SimpleData name="Pop_1990">9.89</SimpleData>
+		<SimpleData name="Pop_1995">11.96</SimpleData>
+		<SimpleData name="Pop_2000">13.63</SimpleData>
+		<SimpleData name="Pop_2005">15.17</SimpleData>
+		<SimpleData name="Pop_2010">16.9</SimpleData>
+		<SimpleData name="Pop_2015">18.77</SimpleData>
+		<SimpleData name="latitude">30.048819</SimpleData>
+		<SimpleData name="longitude">31.243666</SimpleData>
+		<SimpleData name="desc">Cairo, Cairo Governorate, EG</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>31.243666,30.048819</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>New York-Newark</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">New York-Newark</SimpleData>
+		<SimpleData name="Pop_1985">15.83</SimpleData>
+		<SimpleData name="Pop_1990">16.09</SimpleData>
+		<SimpleData name="Pop_1995">16.94</SimpleData>
+		<SimpleData name="Pop_2000">17.81</SimpleData>
+		<SimpleData name="Pop_2005">18.09</SimpleData>
+		<SimpleData name="Pop_2010">18.37</SimpleData>
+		<SimpleData name="Pop_2015">18.59</SimpleData>
+		<SimpleData name="latitude">39.78373</SimpleData>
+		<SimpleData name="longitude">-100.445882</SimpleData>
+		<SimpleData name="desc">US</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">country</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-100.445882,39.78373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dhaka</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Dhaka</SimpleData>
+		<SimpleData name="Pop_1985">4.66</SimpleData>
+		<SimpleData name="Pop_1990">6.62</SimpleData>
+		<SimpleData name="Pop_1995">8.33</SimpleData>
+		<SimpleData name="Pop_2000">10.28</SimpleData>
+		<SimpleData name="Pop_2005">12.33</SimpleData>
+		<SimpleData name="Pop_2010">14.73</SimpleData>
+		<SimpleData name="Pop_2015">17.6</SimpleData>
+		<SimpleData name="latitude">23.759357</SimpleData>
+		<SimpleData name="longitude">90.378814</SimpleData>
+		<SimpleData name="desc">Dhaka, Dhaka Division, BD</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>90.378814,23.759357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karachi</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Karachi</SimpleData>
+		<SimpleData name="Pop_1985">6.03</SimpleData>
+		<SimpleData name="Pop_1990">7.15</SimpleData>
+		<SimpleData name="Pop_1995">8.47</SimpleData>
+		<SimpleData name="Pop_2000">10.03</SimpleData>
+		<SimpleData name="Pop_2005">11.89</SimpleData>
+		<SimpleData name="Pop_2010">14.08</SimpleData>
+		<SimpleData name="Pop_2015">16.62</SimpleData>
+		<SimpleData name="latitude">24.86678</SimpleData>
+		<SimpleData name="longitude">67.031129</SimpleData>
+		<SimpleData name="desc">Karachi, Karāchi District, Sindh, PK</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>67.031129,24.86678</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Buenos Aires</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Buenos Aires</SimpleData>
+		<SimpleData name="Pop_1985">9.96</SimpleData>
+		<SimpleData name="Pop_1990">10.51</SimpleData>
+		<SimpleData name="Pop_1995">11.39</SimpleData>
+		<SimpleData name="Pop_2000">12.41</SimpleData>
+		<SimpleData name="Pop_2005">13.33</SimpleData>
+		<SimpleData name="Pop_2010">14.25</SimpleData>
+		<SimpleData name="Pop_2015">15.18</SimpleData>
+		<SimpleData name="latitude">-34.607562</SimpleData>
+		<SimpleData name="longitude">-58.437076</SimpleData>
+		<SimpleData name="desc">Autonomous City of Buenos Aires, Autonomous City of Buenos Aires, AR</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-58.437076,-34.607562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kolkata (Calcutta)</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Kolkata (Calcutta)</SimpleData>
+		<SimpleData name="Pop_1985">9.95</SimpleData>
+		<SimpleData name="Pop_1990">10.89</SimpleData>
+		<SimpleData name="Pop_1995">11.92</SimpleData>
+		<SimpleData name="Pop_2000">13.06</SimpleData>
+		<SimpleData name="Pop_2005">13.7</SimpleData>
+		<SimpleData name="Pop_2010">14.28</SimpleData>
+		<SimpleData name="Pop_2015">14.86</SimpleData>
+		<SimpleData name="latitude">22.567746</SimpleData>
+		<SimpleData name="longitude">88.347602</SimpleData>
+		<SimpleData name="desc">Kolkata, Hāora, West Bengal, IN</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>88.347602,22.567746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Istanbul</name>
+	<ExtendedData><SchemaData schemaUrl="#MegaCities_data">
+		<SimpleData name="City">Istanbul</SimpleData>
+		<SimpleData name="Pop_1985">5.41</SimpleData>
+		<SimpleData name="Pop_1990">6.55</SimpleData>
+		<SimpleData name="Pop_1995">7.67</SimpleData>
+		<SimpleData name="Pop_2000">8.74</SimpleData>
+		<SimpleData name="Pop_2005">10.51</SimpleData>
+		<SimpleData name="Pop_2010">12.7</SimpleData>
+		<SimpleData name="Pop_2015">14.16</SimpleData>
+		<SimpleData name="latitude">41.009633</SimpleData>
+		<SimpleData name="longitude">28.965165</SimpleData>
+		<SimpleData name="desc">Istanbul, Fatih, Marmara Region, TR</SimpleData>
+		<SimpleData name="color"></SimpleData>
+		<SimpleData name="source">MapQuest Open</SimpleData>
+		<SimpleData name="precision">city/town</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>28.965165,41.009633</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
