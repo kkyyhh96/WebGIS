@@ -3,11 +3,11 @@ var mymap = L.map('mapid').setView([51.505, -0.09], 13);
 var mymap2 = L.map('mapid2').setView([39.75621 , -104.99404], 13);
 
 // Load the tiled layer
-L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=sk.eyJ1Ijoia2t5eWhoOTYiLCJhIjoiY2pzM3J0aWR3MmltYTQ5cXJleHliZDUzdyJ9.4enHtAI7j_760lP8xPqc8Q', {
+L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token={YOUR_KEY}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
-    accessToken: 'sk.eyJ1Ijoia2t5eWhoOTYiLCJhIjoiY2pzM3J0aWR3MmltYTQ5cXJleHliZDUzdyJ9.4enHtAI7j_760lP8xPqc8Q',
+    accessToken: '{YOUR_KEY}',
 }).addTo(mymap);
 
 // Add markers
@@ -51,11 +51,11 @@ mymap.on('click', onMapClick);
 
 // Map 2
 // Load the tiled layer
-L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=sk.eyJ1Ijoia2t5eWhoOTYiLCJhIjoiY2pzM3J0aWR3MmltYTQ5cXJleHliZDUzdyJ9.4enHtAI7j_760lP8xPqc8Q', {
+L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token={YOUR_KEY}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
-    accessToken: 'sk.eyJ1Ijoia2t5eWhoOTYiLCJhIjoiY2pzM3J0aWR3MmltYTQ5cXJleHliZDUzdyJ9.4enHtAI7j_760lP8xPqc8Q',
+    accessToken: '{YOUR_KEY}',
 }).addTo(mymap2);
 
 // Define geojson features
