@@ -22,3 +22,9 @@ After viewing my code, I would appreciate it if you cite my blogs.
 
 ### Leaflet
 A website using several Web GIS technique including Leaflet.
+
+You can view my blogs for more details:  
+
+1.[Leaflet入门：添加点线面并导入GeoJSON数据|Tutorial of Leaflet: Adding Points, Lines, Polygons and Import GeoJSON File](https://www.cnblogs.com/kkyyhh96/p/10386655.html)
+
+[1] Y. Kang, "Tutorial of Leaflet: Adding Points, Lines, Polygons and Import GeoJSON File" cnblogs, 2017. [Online]. Available: http://www.cnblogs.com/kkyyhh96/p/10386655.html.  
