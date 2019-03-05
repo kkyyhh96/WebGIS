@@ -14,23 +14,36 @@
 			<link rel="stylesheet" href="css/style.ie.css">
 		<![endif]-->
 <style>
-		#mapid { height: 680px; }
-		#mapid2 { height: 680px; }
+		.map1 { height: 700px; width: 80%; left: 10%; right: 10%;}
 </style>
 	</head>
 
 	<body>
-		<p>Map 1</p>
-		<div id="mapid"></div>
-		<p>Map 2</p>
-		<div id="mapid2"></div>
+		<p>Map 1: Add point, line and polygon</p>
+		<div id="mapid" class="map1"></div>
+		<p>Map 2: Load geojson features</p>
+		<div id="mapid2" class="map1"></div>
+		<p>Map 3: Load external geojson file</p>
+		<div id="mapid3" class="map1"></div>
+		<p>Map 4: Proportional map and retrieve information from features</p>
+		<div id="mapid4" class="map1"></div>
+		<p>Map 5: Proportional map</p>
+		<div id="mapid5" class="map1"></div>
 		<!--put your initial page content here-->
 			
 		<!--you can also use this space for internal scripts or stylesheets;
 		place these within <script> or <style> tags-->
 
+		<!--put your Mapbox API key here-->
+		<script type="text/javascript">
+			var YOUR_KEY = 
+			var tileURL = 
+		</script>
+
 		<!--put your external script links here-->
 		<script type="text/javascript" src="js/tutorial.js"></script>
-		<!--<script type="text/javascript" src="js/geojson.js"></script>-->
+		<script type="text/javascript" src="js/geojson.js"></script>
+		<script type="text/javascript" src="js/proportional.js"></script>
+		<script type="text/javascript" src="js/sequence.js"></script>
 	</body>
 </html>

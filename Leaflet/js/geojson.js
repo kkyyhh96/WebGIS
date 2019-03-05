@@ -1,3 +1,6 @@
+// Init the map
+var mymap = L.map('mapid3').setView([0, 0], 3);
+
 // Load data
 var loadData = function (){
     $.ajax("data/MegaCities.geojson", {
@@ -54,17 +57,13 @@ function onEachFeature(feature, layer) {
 	layer.bindPopup(popupContent); 
 }
 
-
-// Init the map
-var mymap = L.map('mapid').setView([0, 0], 3);
-
 // Load geoJSON data
 loadData();
 
 // Load the tiled layer
-L.tileLayer('https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=sk.eyJ1Ijoia2t5eWhoOTYiLCJhIjoiY2pzM3J0aWR3MmltYTQ5cXJleHliZDUzdyJ9.4enHtAI7j_760lP8xPqc8Q', {
+L.tileLayer(tileURL, {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 8,
     id: 'mapbox.streets',
-    accessToken: 'sk.eyJ1Ijoia2t5eWhoOTYiLCJhIjoiY2pzM3J0aWR3MmltYTQ5cXJleHliZDUzdyJ9.4enHtAI7j_760lP8xPqc8Q',
+    accessToken: YOUR_KEY,
 }).addTo(mymap);
