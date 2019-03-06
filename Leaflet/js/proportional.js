@@ -29,12 +29,6 @@ function createPropSymbols(data, map){
             attValue = feature.properties[attName];
             geojsonMarkerOptions.radius = calcPropRadius(attValue); // Calculate the radius of circle
 
-            /*
-            var layer = L.marker(latlng, {
-                title: feature.properties.City
-            });
-            */
-
             // Retrieve information of the selected point
             var layer = L.circleMarker(latlng, geojsonMarkerOptions);
             popupContent = "<h2>" + feature.properties.City + 
