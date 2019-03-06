@@ -15,6 +15,28 @@
 		<![endif]-->
 <style>
 		.map1 { height: 700px; width: 80%; left: 10%; right: 10%;}
+		.map2 { height: 700px; width: 80%; left: 10%; }
+		#panel {
+    width: 26%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 42px;
+}
+
+.range-slider {
+    width: 60%;
+}
+
+#forward {
+    float: right;
+}
+
+#reverse {
+    float: left;
+	left: 50%;
+}
 </style>
 	</head>
 
@@ -28,7 +50,10 @@
 		<p>Map 4: Proportional map and retrieve information from features</p>
 		<div id="mapid4" class="map1"></div>
 		<p>Map 5: Proportional map</p>
-		<div id="mapid5" class="map1"></div>
+		<div id="mapid5" class="map2"></div>
+		<div id="panel"></div>
+		<p>Map 6: Choropleth map</p>
+		<div id="mapid6" class="map1"></div>
 		<!--put your initial page content here-->
 			
 		<!--you can also use this space for internal scripts or stylesheets;
@@ -36,8 +61,8 @@
 
 		<!--put your Mapbox API key here-->
 		<script type="text/javascript">
-			var YOUR_KEY = 
-			var tileURL = 
+			var YOUR_KEY = 'sk.eyJ1Ijoia2t5eWhoOTYiLCJhIjoiY2pzM3J0aWR3MmltYTQ5cXJleHliZDUzdyJ9.4enHtAI7j_760lP8xPqc8Q';
+			var tileURL = 'https://api.tiles.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + YOUR_KEY;
 		</script>
 
 		<!--put your external script links here-->
@@ -45,5 +70,6 @@
 		<script type="text/javascript" src="js/geojson.js"></script>
 		<script type="text/javascript" src="js/proportional.js"></script>
 		<script type="text/javascript" src="js/sequence.js"></script>
+		<script type="text/javascript" src="js/choropleth.js"></script>
 	</body>
 </html>
